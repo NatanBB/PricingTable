@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --gray: #828799;
+  --page-background: #f9fbfc;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--page-background);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font: normal 700 3rem 'Open Sans';
+}
+
+h2 {
+  font: normal 400 1.4rem 'Open Sans';
+}
+
+h3 {
+  font: normal 600 1rem 'Open Sans';
+  color: rgba(30, 35, 56, 1);
+}
+
+h4 {
+  font: normal 400 14px 'Open Sans';
+  color: rgba(130, 135, 153, 1);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height:190px;
+  padding: 1.5rem 1.5rem 1.5rem 0rem;
+
+  font: normal 400 14px "Open Sans";
+  color: rgba(130, 135, 153, 1);
+}
+
+li {
+  display: flex;
+  align-content: center;
+  gap: 0.5rem;
+}
+
+main {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: -6rem;
+}
+
+.container-header {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding-bottom: 10rem;
+  
+
+  color: white;
+  background:var(--blue);
+}
+
+.container-header-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.container-header-text h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.container-header-text h2 {
+  font-weight: 400;
+  font-size: 18px;
+  width: 480px;
+  align-self: center;
+}
+
+.container-card {
+  display: flex;
+  width: 355px;
+  height: 470px;
+  border-radius: 10px;
+  background: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.131));
+}
+
+.category{
+  height: 25px;
+}
+
+.container_price{
+  display: flex;
+  height: 50px;
+  margin-bottom: 1.6rem;
+  color: rgba(30, 35, 56, 1);
+}
+
+.container-price .price{
+  font: normal 700 2rem "Open Sans";
+  color: rgba(30, 35, 56, 1);
+  padding-bottom: 1rem;
+}
+
+.container-price .price_small {
+  color: rgba(30, 35, 56, 1);
+  font: normal 700 1rem "Open Sans";
+}
+
+.mes{
+  color: rgb(122, 122, 122);
+}
+
+.container-card h4{
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.container-free-card {
+  display: flex;
+  flex-direction: column;
+  padding:1.9rem;
+  justify-content: space-between;
+}
+
+button {
+  background: transparent;
+}
+
+.btn-primary {
+  padding: 12px 24px 14px 24px;
+  border: 1px solid var(--blue);;
+  border-radius:10px;
+
+  color: var(--blue);
+  font: normal 600 18px "Open Sans";
+}
+
+.btn-primary:hover{
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.header-card h3 {
+  color: var(--blue);
+  font-size: 20px;
+}
+.header-card{
+  display: flex;
+  background: var(--yellow);
+  height:75px;
+  border-radius:8px 8px 0px 0px;
+  align-items: center;
+  padding: 1.9rem;
+  justify-content: space-between;
+
+}
+.button-container{
+  background: #1D539E;
+  Color: white;
+  font: normal 600 12px "Open Sans";
+  padding:8px 24px 8px 24px;
+  border-radius:50px;
+}
+
+.container-basic-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-basic-card .container-price{
+  padding:1.90rem;
+}
+
+.container-basic-card ul{
+  padding:20px 0 1rem 1.9rem;
+}
+
+.container-basic-card h4{
+  padding:0 0 1rem 1.9rem;
+}
+
+.btn-basic{
+  padding: 12px 24px 14px 24px;
+  background: #1D539E;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+
+  color: white;
+  font: normal 600 18px "Open Sans";
+
+  margin: 1.9rem;
+}
+
+.btn-basic:hover{
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-basic:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.container-professional-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem;
+  justify-content: space-between;
+}
